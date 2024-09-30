@@ -36,23 +36,23 @@ search.addEventListener('click', () => {
 
             switch (json.weather[0].main) {
                 case 'Clear':
-                    image.src = 'clear.png';
+                    image.src = 'ASSETS\clear.png';
                     break;
 
                 case 'Rain':
-                    image.src = 'rain.png';
+                    image.src = 'ASSETS\rain.png';
                     break;
 
                 case 'Snow':
-                    image.src = 'snow.png';
+                    image.src = 'ASSETS\snow.png';
                     break;
 
                 case 'Clouds':
-                    image.src = 'cloud.png';
+                    image.src = 'ASSETS\cloud.png';
                     break;
 
                 case 'Haze':
-                    image.src = 'mist.png';
+                    image.src = 'ASSETS\mist.png';
                     break;
 
                 default:
